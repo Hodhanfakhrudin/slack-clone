@@ -1,0 +1,307 @@
+.cx-btn{
+  background-color: rgb(87, 17, 87);
+  color: white;
+  border-style:double;
+  border-radius: 5px;
+  font-size: 15px;
+  border-color: white;
+}
+.cv-btn{
+  background-color: white;
+  color:  rgb(94, 19, 94);
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+}
+.bx-btn{
+  background-color:#F4EDE4;
+  color:rgb(94, 19, 94);
+  border-style:double;
+  border-radius: 5px;
+  font-size: 15px;
+  border-color: white;
+}
+.vc-btn{
+  background-color: rgb(94, 19, 94);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+}
+button{
+  background-color:  rgb(94, 19, 94);
+  color: white;
+  text-decoration: none;
+}
+.head{
+  background-image: url(https://a.slack-edge.com/7460822/marketing/img/homepage/e2e-prospects/emoji/emoji-office-building.png),
+ url(https://a.slack-edge.com/7460822/marketing/img/homepage/e2e-prospects/emoji/emoji-skyline.png);
+
+background-position: top left 80px, top right 40px;
+background-repeat: no-repeat, no-repeat;
+}
+.link-primary:after{
+  content: \2192;
+}
+.link-primary:hover{
+  text-decoration:underline;
+}
+hr {
+  height:3px;
+  margin-left: 50px;
+  margin-right: 20px;
+  
+}
+  
+     
+.eb-btn{
+  background-color: white;
+  color: rgb(94, 19, 94);
+  border: none;
+  border-radius: 5px;
+text-align: center;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  font-size: 15px;
+}
+.me-btn{
+  background-color:  rgb(94, 19, 94);
+color: white;
+border: none;
+border-radius: 5px;
+font-size: small;
+padding-bottom: 18px;
+padding-top: 18px;
+padding-right: 80px;
+}
+.button{
+  background-image: url(https://a.slack-edge.com/7460822/marketing/img/homepage/e2e-prospects/emoji/emoji-lock.png),
+
+  url(https://a.slack-edge.com/7460822/marketing/img/homepage/e2e-prospects/emoji/emoji-woman-technologist.png);
+  background-position: top 10px left 120px, top 10px right 10px;
+background-repeat: no-repeat, no-repeat;
+
+
+}
+.logo{
+  font-size: 18px;
+  background-image: url(https://a.slack-edge.com/7460822/marketing/img/homepage/e2e-prospects/emoji/emoji-chart-upward-trend.png),
+url(https://a.slack-edge.com/7460822/marketing/img/homepage/e2e-prospects/emoji/emoji-handshake.png);
+  background-position: top left, top right 100px;
+  background-repeat: no-repeat, no-repeat;
+
+}
+.ts-btn{
+  background-color: white;
+  color:  rgb(94, 19, 94);
+  border-color: rgb(94, 19, 94);
+  border-radius: 5px;
+  padding-bottom: 18px;
+padding-top: 18px;
+padding-right: 80px;
+font-size: small;
+}
+
+.tr-btn{
+  background-color: white;
+  color:  rgb(94, 19, 94);
+  border: none;
+  border-radius: 5px;
+  font-size: small;
+  padding-right: 40px;
+  
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+.tt-btn{
+  text-align: center;
+  background-color: rgb(66, 17, 66);
+  border-color: white;
+   color: white;
+  border-radius: 5px;
+  font-size: small;
+  padding-bottom: 18px;
+padding-top: 18px;
+padding-right: 80px;
+  
+}
+.nav-link{
+  text-decoration: none;
+color: white;
+}
+.item{
+  text-decoration: none;
+  color: rgb(111, 108, 108);
+  font-size: 13px;
+}
+.link{
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size:13px ;
+  
+}
+.custom-container{
+  background-color:rgb(66, 17, 66);
+   color: white;
+    text-align: center;
+   border-radius: 0 0 120% 120% / 0 0 100% 100%;
+   max-height: 800px; 
+   padding-top: 100px;
+   padding-bottom: 100px;
+  
+}
+figure img{
+  transition: transform 0.3s;
+
+}
+figure:hover {
+  transform: scale(1.1);
+  
+}
+@media(max-width:480px)   {
+  nav{
+    display: none;
+  }
+ }     
+   @media(max-width:480px)  {
+    .eb-btn{
+       column-count: 3;
+       text-align: center;
+    }
+   }    
+   @media(max-width:480px){
+     .me-btn{
+        column-count: 3;
+        padding: auto;
+      }
+      }
+      @media(max-width:480px){
+        .ts-btn{
+           column-count: 5;
+         }
+         }
+      
+         @media (max-width:480px){
+          h1{
+            font-size:small
+            
+          }
+           }
+           
+           .search {
+            width: 100%;
+            position: relative;
+            display: flex;
+          }
+          
+          .searchTerm {
+            border-color: rgb(87, 17, 87); 
+            border: 3px solid ;
+            border-right: none;
+            padding: 5px;
+            border-radius: 5px 0 0 5px;
+            outline: none;
+          
+          }
+         
+          .searchButton {
+            width: 40px;
+            height: 36px;
+            border-color: rgb(87, 17, 87); 
+            background: rgb(87, 17, 87);
+        
+            color: #fff;
+            border-radius: none;
+            cursor: pointer;
+            font-size: 20px;
+          }
+          
+          @media (max-width:480px){
+            .col-6 {
+              width: 100%;
+            
+            }
+          }
+          @media (max-width: 600px) {
+             .fw-bold{
+              font-weight: bold;
+              font-size: 20px;
+              text-align: start;
+              margin:0;
+             }
+          }
+           
+          @media (max-width:480px){
+             .logo{
+              background-image: none;
+             }
+          }
+          @media (max-width:480px){
+            .head{
+             background-image: none;
+           }
+          }
+          @media (max-width: 768px) {
+           
+          
+            figure {
+              flex: 0 0 auto;
+              width: 100%;
+            }
+          }
+          @media (max-width:480px){
+            .custom-container{
+              border-radius: 0 0 20% 20% / 0 0 20% 20%;
+              padding-bottom: 20px;
+            }
+          }
+          
+          @media(max-width:480px)  {
+            .tr-btn{
+               column-count: 2;
+               text-align: center;
+               padding-bottom: 15px;
+               padding-top: 15px;
+               padding-right: 80px;
+               font-size: 15px;
+               margin-left: 40px;
+            }
+           }    
+           @media(max-width:480px)  {
+            .tt-btn{
+               column-count: 2;
+               text-align: center;
+               padding-bottom: 15px;
+               padding-top: 15px;
+               padding-right: 40px;
+               font-size: 15px;
+                 margin-left: 40px;
+            }
+           }  
+            
+           .gs-btn{
+            text-align: center;
+      background-color: rgb(113, 13, 113);
+      border-color: white;
+       color: white;
+      border-radius: 5px;
+      font-size: 16px;
+      padding-bottom: 18px;
+    padding-top: 18px;
+    padding-right: 80px;
+          }
+         
+                
+          @media (max-width: 767px) {
+            .item{
+              display: none;
+            }
+          } 
+          
+          
+        
+       
